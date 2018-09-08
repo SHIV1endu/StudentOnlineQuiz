@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  
+  <servlet>
+    <servlet-name>InstantiationServlet</servlet-name>
+    <servlet-class>com.dts.aoc.utility.InstantiationServlet</servlet-class>    
+    <init-param>
+       <param-name>config</param-name>
+       <param-value>/WEB-INF/config/system.properties</param-value>
+    </init-param>    
+    <load-on-startup>0</load-on-startup>    
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>InstantiationServlet</servlet-name>
+    <url-pattern>/instantiationservlet</url-pattern>
+  </servlet-mapping>
+	
+  
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginAction</servlet-name>
+    <servlet-class>com.dts.aoc.action.LoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegistrationAction</servlet-name>
+    <servlet-class>com.dts.aoc.action.RegistrationAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePasswordAction</servlet-name>
+    <servlet-class>com.dts.aoc.action.ChangePasswordAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewUserAction</servlet-name>
+    <servlet-class>com.dts.aoc.action.NewUserAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddSubjectAction</servlet-name>
+    <servlet-class>com.dts.aoc.action.AddSubjectAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTestAction</servlet-name>
+    <servlet-class>com.dts.aoc.action.AddTestAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Testq</servlet-name>
+    <servlet-class>com.dts.aoc.action.Testq</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddQuestionAction</servlet-name>
+    <servlet-class>com.dts.aoc.action.AddQuestionAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>teo</servlet-name>
+    <servlet-class>com.dts.aoc.action.teo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuestionAnsAction</servlet-name>
+    <servlet-class>com.dts.aoc.action.QuestionAnsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewQuestionList</servlet-name>
+    <servlet-class>com.dts.aoc.action.ViewQuestionList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AAAAAacep</servlet-name>
+    <servlet-class>com.dts.aoc.action.AAAAAacep</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AcceptTestNameAction</servlet-name>
+    <servlet-class>com.dts.aoc.action.AcceptTestNameAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewUserTestName</servlet-name>
+    <servlet-class>com.dts.aoc.action.ViewUserTestName</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserRegisterBeforeTeststartAction</servlet-name>
+    <servlet-class>com.dts.aoc.action.UserRegisterBeforeTeststartAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestLoginAction</servlet-name>
+    <servlet-class>com.dts.aoc.action.TestLoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AnsSubmitByStudent</servlet-name>
+    <servlet-class>com.dts.aoc.action.AnsSubmitByStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewResultAction</servlet-name>
+    <servlet-class>com.dts.aoc.action.ViewResultAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteTestAction</servlet-name>
+    <servlet-class>com.dts.aoc.action.DeleteTestAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteTestNameAction</servlet-name>
+    <servlet-class>com.dts.aoc.action.DeleteTestNameAction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/LoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegistrationAction</servlet-name>
+    <url-pattern>/RegistrationAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePasswordAction</servlet-name>
+    <url-pattern>/ChangePasswordAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewUserAction</servlet-name>
+    <url-pattern>/NewUserAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddSubjectAction</servlet-name>
+    <url-pattern>/AddSubjectAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTestAction</servlet-name>
+    <url-pattern>/AddTestAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Testq</servlet-name>
+    <url-pattern>/Testq</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddQuestionAction</servlet-name>
+    <url-pattern>/AddQuestionAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>teo</servlet-name>
+    <url-pattern>/teo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionAnsAction</servlet-name>
+    <url-pattern>/QuestionAnsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewQuestionList</servlet-name>
+    <url-pattern>/ViewQuestionList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AAAAAacep</servlet-name>
+    <url-pattern>/AAAAAacep</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AcceptTestNameAction</servlet-name>
+    <url-pattern>/AcceptTestNameAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewUserTestName</servlet-name>
+    <url-pattern>/ViewUserTestName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRegisterBeforeTeststartAction</servlet-name>
+    <url-pattern>/UserRegisterBeforeTeststartAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestLoginAction</servlet-name>
+    <url-pattern>/TestLoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AnsSubmitByStudent</servlet-name>
+    <url-pattern>/AnsSubmitByStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewResultAction</servlet-name>
+    <url-pattern>/ViewResultAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteTestAction</servlet-name>
+    <url-pattern>/DeleteTestAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteTestNameAction</servlet-name>
+    <url-pattern>/DeleteTestNameAction</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
